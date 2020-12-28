@@ -1,0 +1,1 @@
+# nextjs-cors-general-handler
