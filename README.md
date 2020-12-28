@@ -3,11 +3,11 @@
 This project was implemented to describe how to create [nextjs api](https://nextjs.org/docs/api-routes/introduction) general
 handler with [cors](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) config.
 
-##Usage:
-#####1-install cors middleware using below command:
+## Usage:
+##### 1-install cors middleware using below command:
 ```yarn add cors``` or ```npm install cors --save-dev```
 
-#####2- go your next api file and define your route array like this:
+##### 2- go your next api file and define your route array like this:
 ```js
 const routes = [
   {
@@ -20,7 +20,7 @@ const routes = [
     }
 ];
 ```
-#####3- define your cors config object, for example:
+##### 3- define your cors config object, for example:
 ```js
 export const generalCorsConfig = {
   methods: ['POST'],
@@ -28,7 +28,7 @@ export const generalCorsConfig = {
 };
 ```
 
-#####4- import generalHandler from ./utils/nextGeneralHandler
+##### 4- import generalHandler from ./utils/nextGeneralHandler
 in your next api file.create an index function like this:
 
 ```js
